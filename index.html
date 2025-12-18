@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mood Based Food Recommendation App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <h1>🍽️ Mood Based Food Recommendation</h1>
+
+    <div class="card">
+
+        <div class="input-group">
+            <label>😊 Select Mood</label>
+            <select id="mood">
+                <option>Happy</option>
+                <option>Sad</option>
+                <option>Stressed</option>
+                <option>Energetic</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>🍔 Hunger Level</label>
+            <select id="hunger">
+                <option>Light</option>
+                <option>Medium</option>
+                <option>Heavy</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <label>🌦️ Weather</label>
+            <select id="weather">
+                <option>Sunny</option>
+                <option>Rainy</option>
+                <option>Cold</option>
+            </select>
+        </div>
+
+        <button onclick="getRecommendation()">Get Smart Suggestions 🚀</button>
+        <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+
+        <div id="result"></div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  width: 380px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: linear-gradient(135deg, #ff7043, #ff5722);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.food {
+  margin: 6px 0;
+}
+
+/* 🌙 DARK MODE */
+.dark {
+  background: linear-gradient(135deg, #1e1e1e, #121212);
+}
+
+.dark h1 {
+  color: #fff;
+}
+
+.dark .card {
+  background: #222;
+  color: #fff;
+}
+
+.dark select,
+.dark button {
+  background-color: #333;
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark #result {
+  background: #333;
+}
+
+
+
+
+
+
+
+
+
